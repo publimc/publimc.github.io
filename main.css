@@ -1,0 +1,57 @@
+@charset "UTF-8"
+
+@font-face {
+	font-family : ‘이쁜폰트’;
+	src: local (‘rubik’), url (rubik.ttf);	
+}
+
+body{
+    font-family: 'rubkik';
+}
+.background-image {
+    background: url(images/header-bg.jpg) 50% 50% no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+
+.icbox {
+    text-align: center;
+}
+.icbox img{width:100px; margin: auto; display: block; max-width: 100%;}
+.icbox2 img{max-width: 100%; margin: auto; display: block; max-width: 100%;}
+
+.btn-y {
+    background: #fec810;
+}
+.btn-y:hover{
+    background: #fec810;
+}
+
+.icbox h4 {
+    font-family: '이쁜폰트';
+}
+
+.form_section {
+    background: url(images/map-image.png) #212529 50% 50% no-repeat;
+}
+
+.icbox2 {
+    text-align: center;
+}
+
+.yellow-box {
+    position: absolute;
+    background-color: yellow;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.yellow-box:hover{
+    opacity: 1;
+}
+
+.position {
+    position: relative;
+}
